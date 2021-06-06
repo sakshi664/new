@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+   /* font-family:'Baloo Bhai',cursive;*/
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul a{
+    display: block;
+    color:rgb(15, 15, 15);
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-left: 6px;
+    margin-top: 10px;
+    margin-left: 3px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+#navbar{
+    height:20%;
+    opacity:0.6;
+    background-color: #ffffff;
+}
+#navbar ul a:hover{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background: url('istockphoto-185811312-612x612.jpg')no-repeat center center/cover;
+    height: 60%;
+    width:100%;
+}
+#home{
+    content: "";
+    position: absolute;
+    /*background: url('istockphoto-185811312-612x612.jpg')no-repeat center center/cover;
+    height: 300px;
+    width:68%;*/
+    font-family: 'Bree Serif', serif;
+    
+
+}
+#home h1{
+text-align: center;
+color: rgb(245, 245, 248);
+margin-bottom: 2px;
+margin-top: 10px;
+margin-left: 100px;
+font-family: 'Bree Serif', serif;
+font-weight: 900;
+
+}
+.primary{
+    font-size:2.8rem ;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+#Home p{
+    padding-left: 60px;
+    padding-top: 5px;
+    font-weight: 900;
+}
+.btn{
+    background-color:gray ;
+    color: honeydew;
+    padding: 15px;
+    margin-left: 60px;
+    margin-top: 5px;
+    border:whitesmoke ;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(75, 68, 68);
+}
+   
+   #pic img {
+      height: 50%;
+      width:70%;
+      margin:20px 20px;
+      padding-left: 30px;
+    }
+    #pic1 img {
+        height: 50%;
+        width:70%;
+        margin:20px 20px;
+        padding-left: 30px;
+      }
+      #pic2 img {
+        height: 50%;
+        width:70%;
+        margin:20px 20px;
+        padding-left: 30px;
+      }
+.h-primary{
+    margin-top: 33px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+}
+#h1-secondary{
+    padding: 10px;
+    text-align: center;
+}
+#h2-secondary{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#h3-secondary{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+.box{
+    margin-left: 25px;
+    border:2px solid black;
+    width: 30%;
+    height:170%;
+    border-radius: 20px;
+    background-color: rgb(224, 213, 205);
+}
+.one{
+    display:flex;
+    height:50%;
+}
+#tik{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#tak{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#to{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+/*clients section*/
+#clientsection{ 
+    position: relative;
+}
+
+#clientsection::before{
+ content: "";
+ position: absolute;
+ background: url('food website/table.jpg') no-repeat center center/cover;
+ width: 100%;
+ height: 40%;
+ z-index: -1;
+ opacity: 0.3;
+ margin-top: 250px;
+ padding: 50px;
+}
+
+#clientsheading{
+    padding: 20px;
+text-align: center;
+font-family: 'Bree Serif', serif;
+font-size: 40px;
+padding-top: 250px;
+}
+#clients{
+    display: flex;
+}
+.clients{
+    margin-left: 100px;
+    margin-top: 3px;
+    height: 10%;
+    width: 50%;
+    
+}
+.clients1{
+   margin-left: 70px;
+    height: 40px;
+    width: 50%;
+    
+}
+
+.clients2{
+    margin-right: 100px;
+    height: 10%;
+    width: 50%;
+    
+}
+.contactus{
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('food website/contactus.jpg') no-repeat center center/cover;
+    margin-top: 100px;
+}
+.contactus{
+    padding-top: 150px;
+}
+footer{
+    background: black;
+    color:white;
+    margin-top: 20px;
+    padding: 9px 9px;
+text-align: center;
+}
+#contactbox input,
+#contactbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border: black 2px solid;
+border-radius: 10px;
+font-size: 1.1rem;
+background: rgb(233, 225, 225);
+ }
+ #contactbox input:hover,
+#contactbox textarea:hover{
+ background-color: rgb(170, 165, 165);
+}
+#contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contactbox form{
+    width: 30%;
+}
+#contactbox label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
